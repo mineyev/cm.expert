@@ -161,9 +161,6 @@ class Redis {
 	}
 
 	/**
-	 * Хеш - это по сути ассоциативный массив
-	 * А $key - это ключ к одному из его элементов
-	 *
 	 * @param string $hashName
 	 * @param string $key
 	 * @param mixed  $value
@@ -191,9 +188,6 @@ class Redis {
 	}
 
 	/**
-	 * Перегрузка методов Redis делается.
-	 * Нужно для жесткого указания базы
-	 *
 	 * @param $method
 	 * @param $params
 	 * @return mixed
